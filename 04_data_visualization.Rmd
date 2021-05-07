@@ -123,7 +123,7 @@ geom_map(aes(x = long, y = lat, map_id = region, fill = Mortality_Rate), map = w
 scale_fill_continuous(labels = scales::percent_format(accuracy = 0.001), low = "navyblue", high = "turquoise1") +
 labs(
   title = "Confirmed COVID-19 deaths relative to the size of the population",
-  subtitle = "Around 3 Million confirmed Covid-19 deaths worldwide",
+  subtitle = "More than 3 Million confirmed Covid-19 deaths worldwide",
   caption = "Date: 05/07/2021") +
 
 
